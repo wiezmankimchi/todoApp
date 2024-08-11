@@ -2,7 +2,12 @@
   "expo": {
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
-    "orientation": "default",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "web": {
       "output": "static",
       "bundler": "metro"
@@ -16,6 +21,9 @@
       ]
     ],
     "name": "30Days",
-    "slug": "30Days"
+    "slug": "30Days",
+    "experiments":{
+      "typredRoutes":true
+    }
   }
 }
