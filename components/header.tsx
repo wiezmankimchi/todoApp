@@ -26,9 +26,9 @@ export default function Header() {
             </Link>
             <Link
               className="text-md font-medium hover:underline web:underline-offset-4"
-              href="/pricing"
+              href="/components"
             >
-              Pricing
+              Components
             </Link>
           </View>
         </View>
