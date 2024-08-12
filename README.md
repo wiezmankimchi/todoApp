@@ -1,9 +1,15 @@
-# Expo Router and Tailwind CSS
+# Expo Router, Schadcn UI, RN Reusables, Zustand
 
-Use [Expo Router](https://docs.expo.dev/router/introduction/) with [Nativewind](https://www.nativewind.dev/v4/overview/) styling.
+includes the following;
+- expo-router V3
+- nativewind V4
+- react-native 74
+- zustand V4
+- expo-fonts
 
-## 🚀 How to use
-
-```sh
-npx create-expo-app -e with-router-tailwind
-```
+  ## how to use
+  - clone
+  - ``cd xxx``
+  - ``npm install``
+  - ``npm start``
+  
