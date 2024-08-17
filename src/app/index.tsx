@@ -7,7 +7,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function Page() {
   return (
-    <View className="flex flex-1">
+    <View className="flex-1">
       <Header />
       <Content />
       <Footer />

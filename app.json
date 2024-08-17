@@ -18,10 +18,10 @@
         {
           "origin": "https://n"
         }
-      ]
+      ], "expo-font"
     ],
-    "name": "30Days",
-    "slug": "30Days",
+    "name": "todoApp",
+    "slug": "todoApp",
     "experiments":{
       "typredRoutes":true
     }

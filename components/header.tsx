@@ -6,12 +6,19 @@ import { Link } from 'expo-router';
 export default function Header() {
     const { top } = useSafeAreaInsets();
     return (
+    
       <View style={{ paddingTop: top }}>
-        <View className="px-4 lg:px-6 h-14 flex items-center flex-row justify-between ">
+        <View style={styles.header}>
           <Link className="font-bold flex-1 items-center justify-center" href="/">
             ACME
           </Link>
-          <View className="flex flex-row gap-4 sm:gap-6">
+           <View style={styles.headerMenu}>
+            <Link
+              className="text-md font-medium hover:underline web:underline-offset-4"
+              href="/onboard"
+            >
+              OnBoard
+            </Link>
             <Link
               className="text-md font-medium hover:underline web:underline-offset-4"
               href="/about"
@@ -35,3 +42,23 @@ export default function Header() {
       </View>
     );
   } 
+
+  const styles = StyleSheet.create({
+    header:{
+      display:"flex",
+      flexDirection:"row",
+      paddingHorizontal:16,
+      height:56,
+      alignItems:"center",
+      justifyContent:"space-between"
+    },
+    headerMenu:{
+      display:"flex",
+      flexDirection:"row",
+      gap:16
+    }
+  })
+
+
+  
+ 
